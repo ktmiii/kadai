@@ -21,6 +21,7 @@ main {
   padding: 10px;
   position: relative;
   background-color: #eee;
+  float: none;
 }
 
 .step-box:last-child {
@@ -74,14 +75,10 @@ footer {
         display:block;
     }
 
-.stepboxes{
-  margin: 0 auto;
-  width: 90%;
-}
-        
+      
     .step-box{
-        width: 100%;
-        margin-top: 20px;
+        width: 90%;
+        margin: 20px 5% 0;
     }
 
     .step-box:last-child{
